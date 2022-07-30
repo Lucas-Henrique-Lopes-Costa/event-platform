@@ -13,6 +13,7 @@ const GET_LESSONS_QUERY = gql`
   }
 `
 
+// Tipo do Type
 interface GetLessonsQueryResponse {
   lessons: {
     id: string
